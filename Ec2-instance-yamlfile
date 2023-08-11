@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: "This is my first ec2 Templaate for Cloud Formation Templaate"
+Resources:
+  MyEC2Instance: 
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: "ami-0f5ee92e2d63afc18"
+      InstanceType: "t2.micro"
+      KeyName: "test-2"
+
