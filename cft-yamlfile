@@ -1,0 +1,7 @@
+Resources:
+  S3B14C42:
+    Type: 'AWS::S3::Bucket'
+    Properties: 
+       BucketName: "mahesh-cft-bucket"
+       VersioningConfiguration:
+        Status: Enabled
